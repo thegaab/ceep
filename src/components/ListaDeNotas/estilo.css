@@ -1,0 +1,31 @@
+ul {
+  align-items: flex;
+}
+.lista-notas {
+  background-position: unset;
+  background-color: #343434;
+  flex-grow: 3;
+  flex-direction: column;
+  grid-template-columns: auto auto auto auto auto;
+  list-style-type: none;
+  padding-left: 29%;
+  padding-right: 30%;
+  padding-top: 15px;
+  position: center;
+  min-height: auto;
+  z-index: 1;
+  flex-grow: 3;
+}
+.lista-notas_item {
+  margin: 12px;
+  min-width: 240px;
+  max-height: 100px;
+  padding-top: 25px;
+  padding: 25;
+  border: 1px #3b3b3b;
+}
+.delete-button {
+  border: unset;
+  background-color: unset;
+  font-size: 14px;
+}
